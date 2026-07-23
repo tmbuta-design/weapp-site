@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Méthodologie — WeAPP | Woldius SARL RDC</title>
+<meta name="description" content="De l'analyse à l'archivage : découvrez la méthodologie de conception logicielle de WeAPP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/favicon-192.png">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <span class="topbar-item phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <a href="tel:+243838629150">+243 838 629 150</a>
+      </span>
+      <span class="topbar-sep sep-1">|</span>
+      <span class="topbar-item email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+        <a href="mailto:info.service@woldius.com">info.service@woldius.com</a>
+      </span>
+      <span class="topbar-sep sep-2">|</span>
+      <span class="topbar-item hours">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        Lundi&nbsp;–&nbsp;Vendredi&nbsp;: 09h00&nbsp;–&nbsp;17h00
+      </span>
+    </div>
+    <a href="demo-logiciels.html" class="topbar-cta">M'identifier</a>
+  </div>
+</div>
+<header class="site-header">
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+  <div class="nav-bar">
+    <a href="index.html" class="logo"><img src="assets/icon-navy.png" alt="" width="32" height="31"><span class="logo-name">WeAPP</span></a>
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="solutions.html">Solutions</a>
+      <div class="nav-dropdown is-current">
+        <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          Ressources
+          <svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown-menu">
+          <a href="references.html">Références</a>
+          <a href="methodologie.html" aria-current="page">Méthodologie</a>
+          <a href="secteurs.html">Secteurs</a>
+          <a href="actualites.html">Actualités</a>
+          <a href="demo-logiciels.html">Portail démonstration</a>
+        </div>
+      </div>
+    </nav>
+    <a href="contact.html" class="nav-cta">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="seal" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="#E4C878" stroke-width="0.6"/><circle cx="50" cy="50" r="38" fill="none" stroke="#E4C878" stroke-width="0.6"/><text x="50" y="24" fill="#E4C878" font-family="IBM Plex Mono" font-size="5.2" text-anchor="middle">WOLDIUS · RDC</text><text x="50" y="80" fill="#E4C878" font-family="IBM Plex Mono" font-size="5.2" text-anchor="middle">WeAPP · AFRIQUE</text></svg></div>
+    <div class="hero-inner">
+      <div class="hero-refline"><span class="ref-tag">DOSSIER N° WEAPP/MET‑06</span><span class="ref-tag">PIÈCE : PROCESSUS</span></div>
+      <h1>Méthodologie</h1>
+      <p class="lede">Un processus structuré, de la conception au déploiement, pour garantir la qualité et la traçabilité de chaque projet.</p>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Les 5 grandes phases</span>
+        <h2>De l'écoute du besoin à l'autonomie durable de vos équipes</h2>
+        <p>Chaque projet WeAPP traverse ces cinq grandes phases, structurées et documentées, pour garantir un résultat fiable et une transition en douceur vers l'autonomie de votre organisation.</p>
+      </div>
+
+      <div class="methodo-phases">
+
+        <div class="methodo-phase">
+          <div class="methodo-phase-text">
+            <span class="methodo-phase-num">Phase 01</span>
+            <h3>Recueil des besoins</h3>
+            <p>Entretiens avec les parties prenantes, immersion dans le contexte opérationnel et identification des contraintes réelles du terrain — la base de tout projet bien cadré.</p>
+          </div>
+          <div class="methodo-phase-visual">
+            <img src="assets/methodo-01-recueil.jpg" alt="Réunion professionnelle d'une équipe WeAPP consacrée aux entretiens avec les parties prenantes et à l'identification des contraintes opérationnelles" loading="lazy" width="1100" height="733">
+          </div>
+        </div>
+
+        <div class="methodo-phase reverse">
+          <div class="methodo-phase-text">
+            <span class="methodo-phase-num">Phase 02</span>
+            <h3>Analyse</h3>
+            <p>Étude approfondie des processus existants, des risques et des priorités, pour cadrer une solution réellement utile et éviter les mauvaises surprises en cours de route.</p>
+          </div>
+          <div class="methodo-phase-visual">
+            <img src="assets/methodo-02-analyse.jpg" alt="Équipe WeAPP en séance d'analyse approfondie des processus existants, des risques et des priorités" loading="lazy" width="1100" height="733">
+          </div>
+        </div>
+
+        <div class="methodo-phase">
+          <div class="methodo-phase-text">
+            <span class="methodo-phase-num">Phase 03</span>
+            <h3>Spécifications &amp; conception fonctionnelle</h3>
+            <p>Rédaction de spécifications fonctionnelles claires, définition des parcours utilisateurs et des règles de gestion — validées avec vous avant tout développement.</p>
+          </div>
+          <div class="methodo-phase-visual">
+            <img src="assets/methodo-03-specifications.jpg" alt="Équipe WeAPP rédigeant et validant avec le client des spécifications fonctionnelles claires avant le développement" loading="lazy" width="1100" height="733">
+          </div>
+        </div>
+
+        <div class="methodo-phase reverse">
+          <div class="methodo-phase-text">
+            <span class="methodo-phase-num">Phase 04</span>
+            <h3>Conception technique, développement &amp; déploiement</h3>
+            <p>Choix d'architecture et de technologies adaptées, construction de la solution par itérations, tests rigoureux, puis mise en service accompagnée avec vigilance sur la continuité d'activité.</p>
+          </div>
+          <div class="methodo-phase-visual">
+            <img src="assets/methodo-04-conception-technique.jpg" alt="Équipe WeAPP présentant une architecture technique, les technologies retenues et les mesures de sécurité adaptées au projet" loading="lazy" width="1100" height="733">
+          </div>
+        </div>
+
+        <div class="methodo-phase">
+          <div class="methodo-phase-text">
+            <span class="methodo-phase-num">Phase 05</span>
+            <h3>Formation, maintenance &amp; archivage</h3>
+            <p>Transfert de compétences aux équipes internes, suivi évolutif de la solution et capitalisation documentaire complète du projet — pour une autonomie durable.</p>
+          </div>
+          <div class="methodo-phase-visual">
+            <img src="assets/methodo-05-formation.jpg" alt="Illustration de la formation et du transfert de compétences aux équipes internes pour assurer une autonomie durable" loading="lazy" width="1100" height="733">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-paper-dim">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Engagement</span>
+        <h2>Ce que cette méthode garantit</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Transparence</h3>
+          <p>Vous savez à tout moment où en est votre projet et ce qui a été validé.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+          </div>
+          <h3>Traçabilité</h3>
+          <p>Chaque décision et chaque livrable est documenté et conservé.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 2.1l4 4-4 4"/><path d="M3 12.1v-2a4 4 0 0 1 4-4h14"/><path d="M7 21.9l-4-4 4-4"/><path d="M21 11.9v2a4 4 0 0 1-4 4H3"/></svg>
+          </div>
+          <h3>Continuité</h3>
+          <p>Vos équipes sont formées et accompagnées, même après le déploiement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><div class="footer-logo"><img src="assets/icon-white.png" alt="" width="30" height="29"><strong>WeAPP</strong></div><p>Filiale Conception des Logiciels Professionnels de Woldius SARL RDC. De la conception au déploiement.</p></div>
+      <div><h5>Dossier</h5><ul><li><a href="index.html">Accueil</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="services.html">Services</a></li><li><a href="solutions.html">Solutions</a></li></ul></div>
+      <div><h5>Ressources</h5><ul><li><a href="references.html">Références</a></li><li><a href="methodologie.html">Méthodologie</a></li><li><a href="secteurs.html">Secteurs</a></li><li><a href="actualites.html">Actualités</a></li><li><a href="demo-logiciels.html">Portail démonstration</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li><a href="contact.html">Nous contacter</a></li><li>14, Av. Kimpwanza, C/Ngaliema<br>Kinshasa, RDC</li><li><a href="tel:+243838629150">+243 838 629 150</a></li><li><a href="mailto:info.service@woldius.com">info.service@woldius.com</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Woldius SARL RDC — WeAPP. Tous droits réservés.</span>
+      <span><a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Politique de confidentialité</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
